@@ -135,6 +135,121 @@ if choice1 == " forest" or "forest":
               if choice14 == " continue" or "continue":
                 print("The way the figure is staring at you doesn\'t seem friendly.")
                 print("Best to not draw its attention anymore than necessary.")
-                print("You continue through the right door and are met by a dimly-lit hallway and torch softly flickering on the stone wall next to you. Do you take it? Type 'yes' or 'no'.")
+                choice17 = input("You continue through the right door and are met by a dimly-lit hallway and torch softly flickering on the stone wall next to you. Do you take it? Type 'yes' or 'no'.")
+                if choice17 == " yes" or "yes":
+                  print("You take the torch off the stone wall and continue on down the hallway.")
+                  print("Down a little ways is a door that opens into a small library. A large chair and coffee table sit in front of a hearth that blazes with a steady flame. You\'re exhausted and need a break.")
+                  choice18 = input("Do you sit down and rest for a little while? Type 'yes' or 'no'.")
+                  if choice18 == "yes" or " yes":
+                    print("You drag your feet over to the hearth and slump into the chair.")
+                    print("The heat from the fire fights away the chill from the rain outside.")
+                    print("After eating all that turkey, you start to feel thirsty.")
+                    print("A cup of tea drops down and floats right above the coffee table.")
+                    print("...")
+                    print("Now where the heck did that come from?")
+                    choice19 = input("Do you drink it?")
+                    if choice19 == "yes" or " yes":
+                      print("You\'re too thirsty to question it and take a sip.")
+                      print("...")
+                      print("Chamomile. Lovely.")
+                      print("You finish your tea, refreshed, and spring up from the chair.")
+                      print("You need to find a way out of here.")
+                      print("You progress through the opposite door out of the library and find yourself in a small room. The ceiling drips through cracks in the walls overrun by the torrential downpour continuing outside.")
+                      print("In the middle of the room is a stone platform with three books on it.")
+                      choice20 = input("You move close enough to read their titles: 'Herbs and Other Types of Vegetation', 'Potions and their Properties', 'A Beginner's Guide to Traps'. Which do you read? Type 'plants', 'potions' or 'traps'.")
+                      if choice20 == "traps" or " traps":
+                        print("This place has already proved the potential to be dangerous. You want to equip yourself with any knowledge you can find on what you could encounter next.")
+                        print("You open the book on traps and begin to read.")
+                        print(
+                          "As you read, the rain steadily begins to let up. You finish the last chapter after it\'s already become a drizzle.")
+                        print("You continue on with your journey through the next door.")
+                        print(
+                          "It opens into another long hallway but this one is darker. Luckily, you have your torch with you.")
+                        print(
+                          "You use it to light your line of sight but you still can\'t make out much so you turn it to the ground to hopefully guide your walking path.")
+                        print(
+                          "You can discern leaves on the ground which is odd. This hallway is a ways away from the entrance of the ruins.")
+                        print(
+                          "Any leaves somebody could have tracked in would have been left in that first hallway you passed through at the latest.")
+                        choice21 = input(
+                          "Step through the leaves, to the side of the leaves, or jump over the leaves? Type 'step', 'side' or 'jump'.")
+                        if choice21 == "step" or " step":
+                          print(
+                            "You step through the leaves. 'Oh, those leaves were covering a pit',you think briefly as you fall to your demise into a pit of spikes.")
+                          print("You die.")
+                        if choice21 == "jump" or " jump":
+                          print(
+                            "Those leaves are most likely covering something. With your torch you still can\'t make out how far it goes on but you don\'t want to slip on the space on the sides of the pile.")
+                          print("You choose to jump across.")
+                          print(
+                            "As you sail forward, however, your torchlight briefly illuminates the space you couldn\'t see further into the hallway.")
+                          print("The leaf pile went on for a little longer than you thought.")
+                          print("You fall through the leaves and into a spike pit.")
+                          print("You die.")
+                        if choice21 == "side" or " side":
+                          print(
+                            "Those leaves are most likely covering something. However, you can make out a space of solid stone surrounding the leaves and you use your torch to guide your way around the leaf pile.")
+                          print(
+                            "You\'ve successfully navigated what could have been a trap and pat yourself on the back before forging onward.")
+                      if choice20 == "potions" or " potions":
+                        print("By now you'\ve discerned that this place has some sort of magical presence. Best to be equipped with some knowledge against it.")
+                        print("You open the potions book and read.")
+                        print("As you read, the rain steadily begins to let up. You finish the last chapter after it\'s already become a drizzle.")
+                        print("You continue on with your journey through the next door.")
+                        print(
+                          "It opens into another long hallway but this one is darker. Luckily, you have your torch with you.")
+                        print(
+                          "You use it to light your line of sight but you still can\'t make out much so you turn it to the ground to hopefully guide your walking path.")
+                        print(
+                          "You can discern leaves on the ground which is odd. This hallway is a ways away from the entrance of the ruins.")
+                        print(
+                          "Any leaves somebody could have tracked in would have been left in that first hallway you passed through at the latest.")
+                        choice21 = input(
+                          "Step through the leaves, to the side of the leaves, or jump over the leaves? Type 'step', 'side' or 'jump'.")
+                        if choice21 == "step" or " step":
+                          print(
+                            "You step through the leaves. 'Oh, those leaves were covering a pit',you think briefly as you fall to your demise into a pit of spikes.")
+                          print("You die.")
+                        if choice21 == "jump" or " jump":
+                          print(
+                            "Those leaves are most likely covering something. With your torch you still can\'t make out how far it goes on but you don\'t want to slip on the space on the sides of the pile.")
+                          print("You choose to jump across.")
+                          print(
+                            "As you sail forward, however, your torchlight briefly illuminates the space you couldn\'t see further into the hallway.")
+                          print("The leaf pile went on for a little longer than you thought.")
+                          print("You fall through the leaves and into a spike pit.")
+                          print("You die.")
+                        if choice21 == "side" or " side":
+                          print(
+                            "Those leaves are most likely covering something. However, you can make out a space of solid stone surrounding the leaves and you use your torch to guide your way around the leaf pile.")
+                          print(
+                            "You\'ve successfully navigated what could have been a trap and pat yourself on the back before forging onward.")
+                      if choice20 == "plants" or " plants":
+                        print("With so much vegetation growing in and around the ruins, you consider it best to study up on various types of plants you could encounter.")
+                        print("As you read, the rain steadily begins to let up. You finish the last chapter after it\'s already become a drizzle.")
+                        print("You continue on with your journey through the next door.")
+                        print("It opens into another long hallway but this one is darker. Luckily, you have your torch with you.")
+                        print("You use it to light your line of sight but you still can\'t make out much so you turn it to the ground to hopefully guide your walking path.")
+                        print("You can discern leaves on the ground which is odd. This hallway is a ways away from the entrance of the ruins.")
+                        print("Any leaves somebody could have tracked in would have been left in that first hallway you passed through at the latest.")
+                        choice21 = input("Step through the leaves, to the side of the leaves, or jump over the leaves? Type 'step', 'side' or 'jump'.")
+                        if choice21 == "step" or " step":
+                          print("You step through the leaves. 'Oh, those leaves were covering a pit',you think briefly as you fall to your demise into a pit of spikes.")
+                          print("You die.")
+                        if choice21 == "jump" or " jump":
+                          print(
+                            "Those leaves are most likely covering something. With your torch you still can\'t make out how far it goes on but you don\'t want to slip on the space on the sides of the pile.")
+                          print("You choose to jump across.")
+                          print(
+                            "As you sail forward, however, your torchlight briefly illuminates the space you couldn\'t see further into the hallway.")
+                          print("The leaf pile went on for a little longer than you thought.")
+                          print("You fall through the leaves and into a spike pit.")
+                          print("You die.")
+                        if choice21 == "side" or " side":
+                          print("Those leaves are most likely covering something. However, you can make out a space of solid stone surrounding the leaves and you use your torch to guide your way around the leaf pile.")
+                          print("You\'ve successfully navigated what could have been a trap and pat yourself on the back before forging onward.")
+
+
+
                 
                   
